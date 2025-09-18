@@ -6,20 +6,20 @@ const HowItWorks = () => {
     {
       icon: Upload,
       step: "1",
-      title: "Connect Your Data Sources",
-      description: "Connect with data sources like databases, spreadsheets, and more. Upload your Excel or Google Sheets files."
+      title: "Upload Your PDF",
+      description: "Simply drag and drop your PDF file or click to browse and select from your device."
     },
     {
       icon: Cog,
       step: "2", 
-      title: "Ask for Analysis",
-      description: "Real-time data processing for Excel sheets. Ask questions in plain English and get AI-powered insights instantly."
+      title: "AI Processing",
+      description: "Our advanced AI analyzes your PDF, identifies tables and data structures, and converts them accurately."
     },
     {
       icon: Download,
       step: "3",
-      title: "Visualize Your Data",
-      description: "AIsheet.ai generates beautiful graphs and charts for you automatically. Export results in your preferred format."
+      title: "Download Excel",
+      description: "Download your converted Excel file with preserved formatting, tables, and data relationships."
     }
   ];
 
@@ -28,10 +28,10 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            How to Analyze Sheets with AI
+            How It Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ask for what you want and AIsheet.ai analyzes the data for you in three simple steps
+            Convert your PDF to Excel in just three simple steps. No technical knowledge required.
           </p>
         </div>
 

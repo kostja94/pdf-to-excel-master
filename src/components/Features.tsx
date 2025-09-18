@@ -5,33 +5,33 @@ const Features = () => {
   const features = [
     {
       icon: Brain,
-      title: "Data Manipulation",
-      description: "Clean and sort your data with simple prompts. Perform data cleaning, lookup, counting, merge & split sheets, and more with AI assistance."
+      title: "AI-Powered Extraction",
+      description: "Advanced AI technology accurately identifies and extracts tables, data, and text from complex PDF layouts."
     },
     {
       icon: Zap,
-      title: "Instant Insights",
-      description: "Ask questions in plain English and get instant answers directly in your spreadsheet cells using AI-powered functions."
+      title: "Lightning Fast",
+      description: "Convert your PDF files to Excel format in seconds, not minutes. Process multiple files simultaneously."
     },
     {
       icon: Shield,
-      title: "Real-Time Processing",
-      description: "Process your Excel sheets and get results in seconds. Connect with databases, spreadsheets, and other data sources seamlessly."
+      title: "Secure & Private",
+      description: "Your files are processed securely and deleted automatically. We never store or share your documents."
     },
     {
       icon: FileSpreadsheet,
-      title: "100+ Chart Types",
-      description: "Generate more than 100 types of charts and graphs from your Excel sheets in just 10 seconds with AI assistance."
+      title: "Perfect Formatting",
+      description: "Maintain original table structure, formatting, and data relationships in the converted Excel file."
     },
     {
       icon: Download,
-      title: "Convert PDFs to Excel",
-      description: "Transform your PDFs into fully editable Excel spreadsheets in seconds with advanced AI-powered extraction."
+      title: "Multiple Formats",
+      description: "Download as Excel (.xlsx), CSV, or Google Sheets compatible formats for maximum flexibility."
     },
     {
       icon: Eye,
-      title: "Visualize Your Data",
-      description: "Upload your files and AIsheet.ai generates beautiful graphs and charts automatically, making data analysis effortless."
+      title: "Preview & Edit",
+      description: "Preview extracted data before download and make adjustments to ensure perfect results."
     }
   ];
 
@@ -40,10 +40,10 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            The Power of AI in Sheets and Excel
+            Why Choose Our PDF to Excel Converter?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Create charts and uncover in-depth insights, streamlining your spreadsheets with AI-powered analysis and automation.
+            Experience the most accurate and efficient PDF to Excel conversion with our advanced AI technology.
           </p>
         </div>
 

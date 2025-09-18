@@ -275,14 +275,12 @@ const Api = () => {
                           <Button
                             variant="ghost"
                             size="sm"
-                            onClick={() => copyToClipboard(`curl -X GET https://api.aisheet.ai/v1/jobs/12345/status \\
-  -H "Authorization: Bearer YOUR_API_KEY"`)}
+                            onClick={() => copyToClipboard("curl -X GET https://api.aisheet.ai/v1/jobs/12345/status \\\n  -H \"Authorization: Bearer YOUR_API_KEY\"")}
                           >
                             <Copy className="h-4 w-4" />
                           </Button>
                         </div>
-                        <pre>{`curl -X GET https://api.aisheet.ai/v1/jobs/12345/status \\
-  -H "Authorization: Bearer YOUR_API_KEY"`}</pre>
+                        <pre>curl -X GET https://api.aisheet.ai/v1/jobs/12345/status \<br />  -H "Authorization: Bearer YOUR_API_KEY"</pre>
                       </div>
                     </CardContent>
                   </Card>

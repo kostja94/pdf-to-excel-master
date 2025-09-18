@@ -18,30 +18,25 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">Product</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">PDF to Excel</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">PDF to CSV</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Batch Convert</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">API Access</a></li>
+              <li><a href="/pdf-to-excel" className="hover:text-foreground transition-colors">PDF to Excel</a></li>
+              <li><a href="/chart-maker" className="hover:text-foreground transition-colors">Chart Maker</a></li>
+              <li><a href="/data-cleaning" className="hover:text-foreground transition-colors">Data Cleaning</a></li>
+              <li><a href="/api" className="hover:text-foreground transition-colors">API Access</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold text-foreground mb-4">Support</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Contact Us</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">FAQ</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Status</a></li>
+              <li><a href="/pricing" className="hover:text-foreground transition-colors">Pricing</a></li>
+              <li><a href="#faq" className="hover:text-foreground transition-colors">FAQ</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Legal</h3>
+            <h3 className="font-semibold text-foreground mb-4">Company</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Cookie Policy</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">GDPR</a></li>
+              <li><a href="/blog" className="hover:text-foreground transition-colors">Blog</a></li>
             </ul>
           </div>
         </div>

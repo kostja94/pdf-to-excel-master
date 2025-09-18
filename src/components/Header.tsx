@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
+import { Menu, Globe } from "lucide-react";
 import logoImage from "@/assets/aisheet-logo.png";
 
 const Header = () => {
@@ -11,31 +11,42 @@ const Header = () => {
             <img src={logoImage} alt="AISheet.ai" className="h-8 w-auto" />
           </div>
           
-          <nav className="hidden md:flex items-center space-x-6">
-            <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
-              Features
-            </a>
-            <a href="/chart-maker" className="text-muted-foreground hover:text-foreground transition-colors">
-              Chart Maker
-            </a>
-            <a href="/data-cleaning" className="text-muted-foreground hover:text-foreground transition-colors">
-              Data Cleaning
-            </a>
-            <a href="/pricing" className="text-muted-foreground hover:text-foreground transition-colors">
-              Pricing
-            </a>
-            <a href="/api" className="text-muted-foreground hover:text-foreground transition-colors">
-              API
-            </a>
-            <a href="#faq" className="text-muted-foreground hover:text-foreground transition-colors">
-              FAQ
-            </a>
-            <Button variant="outline">
-              Sign In
-            </Button>
+          <nav className="hidden lg:flex items-center justify-center flex-1">
+            <div className="flex items-center space-x-8">
+              <a href="/pdf-to-excel" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+                PDF to Excel
+              </a>
+              <a href="/chart-maker" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+                Chart Maker
+              </a>
+              <a href="/data-cleaning" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+                Data Cleaning
+              </a>
+              <a href="/pricing" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+                Pricing
+              </a>
+              <a href="/api" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+                API
+              </a>
+              <a href="/blog" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+                Blog
+              </a>
+            </div>
           </nav>
 
-          <Button variant="ghost" size="icon" className="md:hidden">
+          <div className="hidden lg:flex items-center space-x-4">
+            <Button variant="ghost" size="icon">
+              <Globe className="h-4 w-4" />
+            </Button>
+            <Button variant="ghost">
+              Login
+            </Button>
+            <Button variant="default">
+              Sign Up
+            </Button>
+          </div>
+
+          <Button variant="ghost" size="icon" className="lg:hidden">
             <Menu className="h-6 w-6" />
           </Button>
         </div>

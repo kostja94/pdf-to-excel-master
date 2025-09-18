@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Brain, BarChart3, Sparkles } from "lucide-react";
+import logoImage from "@/assets/aisheet-logo.png";
 
 const Hero = () => {
   return (
@@ -17,9 +18,7 @@ const Hero = () => {
         <div className="text-center max-w-5xl mx-auto">
           {/* Logo and Brand */}
           <div className="flex items-center justify-center mb-8">
-            <Brain className="w-12 h-12 text-primary mr-4" />
-            <h1 className="text-3xl md:text-4xl font-bold text-foreground">AIsheet.ai</h1>
-            <BarChart3 className="w-12 h-12 text-primary ml-4" />
+            <img src={logoImage} alt="AISheet.ai" className="h-12 w-auto" />
           </div>
 
           {/* Main Headline */}

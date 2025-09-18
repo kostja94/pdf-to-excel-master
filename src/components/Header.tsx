@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { FileSpreadsheet, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
+import logoImage from "@/assets/aisheet-logo.png";
 
 const Header = () => {
   return (
@@ -7,8 +8,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center space-x-2">
-            <FileSpreadsheet className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold text-foreground">AISheet</span>
+            <img src={logoImage} alt="AISheet.ai" className="h-8 w-auto" />
           </div>
           
           <nav className="hidden md:flex items-center space-x-6">

@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import UseCases from "@/components/UseCases";
 import HowItWorks from "@/components/HowItWorks";
+import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
@@ -19,6 +20,7 @@ const PdfToExcel = () => {
         <section id="how-it-works">
           <HowItWorks />
         </section>
+        <Testimonials />
         <section id="faq">
           <FAQ />
         </section>
